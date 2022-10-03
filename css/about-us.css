@@ -1,0 +1,59 @@
+.about-us {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+  display: flex;
+  justify-content: center;
+}
+
+.about-us-container {
+  /* border: 2px solid black; */
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 2.2rem;
+  color: var(--color-accent1);
+  justify-content: center;
+  align-items: center;
+  flex-direction: row-reverse;
+  width: 80vw;
+  padding: 0;
+}
+
+.about-img {
+  /* border: 1px solid black; */
+  background: url("../images/about-us.png");
+  background-size: cover;
+  height: 70rem;
+  width: 60rem;
+  flex-grow: 1;
+}
+
+.about-us-content {
+  width: 50rem;
+  padding-bottom: 5rem;
+  flex-grow: 1;
+  padding-left: 4rem;
+}
+
+.about-headline {
+  font-size: 4.4rem;
+}
+
+@media screen and (max-width: 767px) {
+  .about-headline {
+    font-size: 2.5rem;
+  }
+
+  .about-us-content {
+    font-size: 1.6rem;
+  }
+
+  .about-img {
+    height: 32rem;
+  }
+}
+
+@media screen and (max-width: 1379px) {
+  .about-us-content {
+    padding: 10px;
+  }
+}

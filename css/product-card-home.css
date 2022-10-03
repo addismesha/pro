@@ -1,0 +1,199 @@
+.product-header {
+    margin-top: 10rem;
+    margin-bottom: 60px;
+}
+
+.product-header h2 {
+    margin-bottom: 20px;
+    font-size: 4.4rem;
+}
+
+.product-header p, .product-header h2 {
+    width: 80vw;
+    color: black;
+    text-align: center;
+    margin-left: 10vw;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 20rem;
+    /* width: 1694px; */
+}
+
+.card-container h3{
+    text-align: left;
+    color: white;
+    font-size: 3.5rem;
+}
+.card-container p {
+    text-align: left;
+    color: var(--color-accent2);
+    font-size: 1.8rem;
+}
+
+.card {
+    flex-basis: 39rem;
+    flex-shrink: 1;
+    margin: 2rem;
+    box-shadow: 6px 6px 16px black;
+    background-repeat: no-repeat;
+    height: 45rem;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.card-bg {
+    height: 45rem;
+    width: auto;
+}
+
+.card-1 {
+    background-image: url("../images/p1.png");
+    background-repeat: no-repeat;
+
+    
+}
+
+.card-2 {
+    background-image: url("../images/p2.png");
+}
+
+.card-3 {
+    background-image: url("../images/p3.png");
+}
+
+.card-4 {
+    background-image: url("../images/p4.png");
+}
+
+.card-bg {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 45rem;
+    justify-content:end;
+}
+
+.product-intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-content: center;
+    height: 45rem;
+    width: auto;
+    margin-left: 20px;
+    
+}
+
+.btn-product-card {
+    margin-top: 20px;
+    width: 15rem;
+}
+
+.product-intro p {
+    width: 80%;
+}
+
+
+@media screen and (max-width: 865px) {
+    .card {
+        flex-grow: 1;
+    }
+
+    .card-bg {
+        background: rgba(8, 62, 137, 0.54);
+    }
+
+    .product-intro  {
+        align-items: center;
+        margin-left: 0;
+    }
+    
+    .product-intro p {
+        visibility: visible;
+        text-align: center;
+    }
+    
+    .btn-product-card {
+        visibility: visible;
+    }
+    
+    .product-intro h3 {
+        visibility: visible;
+        text-align: center;
+    }
+    
+    .card-title {
+        visibility: hidden;
+    }
+
+
+}
+
+@media screen and (max-width: 480px) {
+    .product-intro p {
+        font-size: 1.6rem;
+    }
+
+    .product-intro h3 {
+        font-size: 2.5rem;
+    }
+
+    .card-title {
+        font-size: 2.rem;
+        padding-bottom: 4rem;
+    }
+
+    .card {
+        height: 40rem;
+    }
+
+    .product-header p {
+        font-size: 1.6rem;
+    }
+
+    .product-header h2 {
+        font-size: 3rem;
+    }
+
+}
+
+@media screen and (min-width: 866px) {
+
+.product-intro h3, .btn-product-card {
+    visibility: hidden;
+}
+
+.product-intro p {
+    visibility: hidden;
+    width: 80%;
+}
+
+.card:hover .card-bg {
+    background: rgba(8, 62, 137, 0.54);
+}
+
+.card:hover .product-intro p {
+    visibility: visible;
+}
+
+.card:hover .btn-product-card {
+    visibility: visible;
+}
+
+.card:hover .product-intro h3 {
+    visibility: visible;
+}
+
+.card:hover .card-title {
+    visibility: hidden;
+}
+
+.card-title {
+    margin: 20px;
+}
+
+}

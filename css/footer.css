@@ -1,0 +1,150 @@
+.footer-1st-row {
+  display: flex;
+  justify-content: center;
+  background-color: #3a4148;
+}
+
+.footer-address {
+  width: 90vw;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 10vw;
+  justify-content: center;
+
+  color: white;
+}
+
+.footer-address-item {
+  display: flex;
+  align-items: center;
+  width: 30rem;
+  padding: 1rem 0;
+  font-size: 1.6rem;
+  text-align: left;
+}
+
+.footer-address-icon {
+  width: 2.2rem;
+  margin-right: 2rem;
+}
+
+.footer-2nd-row {
+  background-color: #081e3b;
+}
+
+.footer-nav {
+  display: flex;
+  column-gap: 5vw;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 1rem 0;
+  font-size: 1.6rem;
+}
+
+.footer-nav-col img {
+  height: 5rem;
+  object-fit: cover;
+}
+
+.footer-social {
+  display: flex;
+  column-gap: 2vw;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 2rem;
+}
+
+.footer-social-col img {
+  height: 2.5rem;
+  object-fit: cover;
+}
+
+.footer-copyright {
+  display: flex;
+  column-gap: 2vw;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 1.6rem;
+  padding-top: 2rem;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .footer-address-item {
+    font-size: 1.8rem;
+  }
+
+  .footer-address-icon {
+    width: 1.8rem;
+  }
+
+  .footer-address-item {
+    width: 35rem;
+  }
+
+  .footer-nav {
+    font-size: 1.6rem;
+  }
+
+  .footer-copyright {
+    font-size: 1.4rem;
+  }
+
+  .footer-nav-col img {
+    height: 4rem;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 767px) {
+  .footer-address-item {
+    font-size: 1.6rem;
+  }
+
+  .footer-address-icon {
+    width: 1.6rem;
+  }
+  .footer-address-item {
+    width: 35rem;
+  }
+
+  .footer-nav {
+    font-size: 1.4rem;
+  }
+
+  .footer-copyright {
+    font-size: 1.2rem;
+  }
+
+  .footer-nav-col img {
+    height: 3.5rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .footer-address-item {
+    font-size: 1.4rem;
+  }
+
+  .footer-address-icon {
+    width: 1.4rem;
+  }
+
+  .footer-address-item {
+    width: 30rem;
+  }
+
+  .footer-nav-col img {
+    height: 3rem;
+  }
+
+  .footer-nav {
+    font-size: 1.2rem;
+  }
+
+  .footer-copyright {
+    font-size: 1rem;
+  }
+
+  .footer-social-col img {
+    height: 2rem;
+  }
+}

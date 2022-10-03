@@ -1,0 +1,106 @@
+.sales-home {
+    background: url("../images/sales-home-bg.png");
+    background-size: cover;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .sales-home-container {
+    display: flex;
+    align-items: center;
+    padding: 20rem 0;
+    width: 80%;
+    justify-content: space-between;
+  }
+  
+  .sales-home-text {
+    display: flex;
+    align-items: center;
+    padding-bottom: 2rem;
+  }
+  
+  .sales-home-text p {
+    font-size: 1rem;
+    color: var(--color-body);
+  }
+  
+  .sales-home-line {
+    border-left: 4px solid red;
+    height: 20rem;
+    margin: 0;
+  }
+  
+  .sales-home-inner-text {
+    padding-left: 2rem;
+    width: 57rem;
+  }
+  .sales-home-inner-text p {
+    width: 90%;
+  }
+  .sales-home-inner-text h2 {
+    font-size: 4.4rem;
+    color: red;
+    width: 100%;
+  }
+  
+  .sales-home-container img {
+    margin: 0;
+    width: 35rem;
+    /* justify-self: end; */
+  }
+  
+  @media screen and (min-width: 1025px) and (max-width: 1280px) {
+    .sales-home-container img {
+      width: 30rem;
+    }
+    .sales-home-text p {
+      font-size: 1.8rem;
+    }
+    
+    .sales-home-inner-text h2 {
+      font-size: 4rem;
+    }
+    .sales-home-inner-text {
+      padding-left: 2rem;
+      width: 50rem;
+    }
+  }
+  
+  @media screen and (min-width: 768px) and (max-width: 1024px) {
+    .sales-home-container img {
+      width: 20rem;
+    }
+    .sales-home-text p {
+      font-size: 1.6rem;
+    }
+    
+    .sales-home-inner-text h2 {
+      font-size: 3.5rem;
+    }
+    .sales-home-inner-text {
+      padding-left: 2rem;
+      width: 40rem;
+    }
+  }
+  
+  @media screen and (min-width: 481px) and (max-width: 767px) {
+    .sales-home-container img {
+      width: 10rem;
+      flex-grow: 1;
+    }
+    .sales-home-text p {
+      font-size: 1.6rem;
+    }
+    
+    .sales-home-inner-text h2 {
+      font-size: 2.5rem;
+    }
+    .sales-home-inner-text {
+      padding-left: 2rem;
+      width: 30rem;
+    }
+  }
+/* 
+ */

@@ -1,0 +1,44 @@
+.top {
+    background-image: url("../images/sales-home-bg.png");
+    background-size: cover;
+    width: 100vw;
+    height:18rem;
+   
+   }
+.top_txt {
+    color: #ffffff;
+    margin-left: 10vw;
+    padding-top: 10vh;
+    display: block;
+    }
+
+.line1{
+    width: 90px;
+    height: 1px;
+    background: #ffffff;
+    display: inline-block;
+}
+.header {
+    background-image: url("../images/23fcb0c67bab5179efeaf1cfcc8eafc9_black_and_white_wallpaper_black@2x.png");
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    display: block;
+}
+.address {
+    display: flex;
+    align-content: center;
+    
+}
+.contacts {
+    margin-left: 5rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 20rem;
+}
+.contacts img{
+ width: 25px;
+ height: 20px;
+ padding-left: 5px;
+ padding-right: 10px;
+}

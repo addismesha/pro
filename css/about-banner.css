@@ -1,0 +1,64 @@
+.about-banner {
+  background: url("../images/company-profile-banner.png");
+  background-size: cover;
+  height: 50vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about-banner-headline h1 {
+  color: white;
+  text-align: left;
+  padding-bottom: 5vw;
+  padding-left: 10vw;
+  padding-top: 5vw;
+}
+
+.banner-btn-container {
+  padding-left: 10vw;
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 2rem;
+  width: 50vw;
+}
+
+.btn-custom-active {
+  background-color: #cd151d;
+  color: white;
+}
+
+.about-btn {
+  padding: 1vw 3vw;
+}
+
+.about-btn:hover {
+  background-color: #cd151d;
+  color: white;
+  border: 0;
+}
+
+.about-btn-mobile {
+  visibility: hidden;
+}
+
+@media screen and (max-width: 767px) {
+  .banner-btn-container {
+    visibility: hidden;
+  }
+  .about-btn-mobile {
+    visibility: visible;
+    font-size: 1.6rem;
+    color: white;
+    padding-left: 10vw;
+  }
+
+  .about-banner-headline h1 {
+    font-size: 2rem;
+    padding-bottom: 0;
+  }
+
+  .btn-custom-mobile-active {
+    color: #cd151d;
+  }
+}
