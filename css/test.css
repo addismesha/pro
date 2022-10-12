@@ -26,17 +26,15 @@
   background-position: center;
   width: 100vw;
   display: flex;
-
 }
 .address {
   display: flex;
   align-content: center;
   width: 100%;
-    justify-content: space-around;
+  justify-content: space-around;
 }
 .contacts {
-margin: 0px;
-
+  margin: 0px;
   width: 50%;
   color: #000;
   font: 0.7em sans-serif;
@@ -59,10 +57,10 @@ margin: 0px;
   height: 25px;
   padding: 6px;
 }
-.map{
+.map {
   width: 100%;
 }
-.contact_address{
+.contact_address {
   padding-left: 10%;
 }
 @media screen and (min-width: 481px) and (max-width: 767px) {
